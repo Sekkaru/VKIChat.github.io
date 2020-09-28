@@ -1,0 +1,10 @@
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\bin\Debug\VKIChat.exe.config
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\bin\Debug\VKIChat.exe
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\bin\Debug\VKIChat.pdb
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\obj\Debug\VKIChat.csprojAssemblyReference.cache
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\obj\Debug\VKIChat.Form1.resources
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\obj\Debug\VKIChat.Properties.Resources.resources
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\obj\Debug\VKIChat.csproj.GenerateResource.cache
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\obj\Debug\VKIChat.csproj.CoreCompileInputs.cache
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\obj\Debug\VKIChat.exe
+G:\Разработка ПО\VKIChat\VKIChat\VKIChat\obj\Debug\VKIChat.pdb
