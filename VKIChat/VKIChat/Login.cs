@@ -16,5 +16,12 @@ namespace VKIChat
         {
             InitializeComponent();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Registration oldForm = new Registration();
+            this.Hide();
+            oldForm.Show();
+        }
     }
 }

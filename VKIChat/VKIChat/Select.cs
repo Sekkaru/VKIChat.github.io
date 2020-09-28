@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace VKIChat
 {
-    public partial class Form1 : Form
+    public partial class Select : Form
     {
-        public Form1()
+        public Select()
         {
             InitializeComponent();
         }

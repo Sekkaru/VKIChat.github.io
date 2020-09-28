@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace VKIChat
 {
-    public partial class Form1 : Form
+    public partial class Chat : Form
     {
-        public Form1()
+        public Chat()
         {
             InitializeComponent();
         }
