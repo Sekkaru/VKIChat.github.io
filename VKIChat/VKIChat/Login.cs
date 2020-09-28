@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace VKIChat
 {
     public partial class Login : Form
     {
+        public static int id_user;
         public Login()
         {
             InitializeComponent();
@@ -27,7 +30,11 @@ namespace VKIChat
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+            using (MySqlConnection conn = new MySqlConnection(strConn))
+            {
+                conn.Open();
+                string sel = $"select count(*) from `Users` where UserName = '{txtLOGIN.Text}', UserPassword = '{txtPASS.Text}'";
+            }
         }
     }
 }

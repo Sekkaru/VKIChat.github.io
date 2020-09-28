@@ -33,7 +33,7 @@ namespace VKIChat
             {
                 conn.Open();
                 string sel = $"select * from `Users` where UserName = '{txtLOGIN.Text}'";
-                 string sql = $"insert into `Users` (UserName, UserPassword) values ('{txtLOGIN.Text}','{txtPASS.Text}')";
+                string sql = $"insert into `Users` (UserName, UserPassword) values ('{txtLOGIN.Text}','{txtPASS.Text}')";
                 MySqlCommand comm = new MySqlCommand(sel, conn);
                 MySqlDataReader sqlReader = null;
                 sqlReader = comm.ExecuteReader();
