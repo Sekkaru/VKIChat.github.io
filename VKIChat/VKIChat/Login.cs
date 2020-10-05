@@ -28,12 +28,25 @@ namespace VKIChat
             oldForm.Show();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e) //Логин
         {
             using (MySqlConnection conn = new MySqlConnection(strConn))
             {
                 conn.Open();
-                string sel = $"select count(*) from `Users` where UserName = '{txtLOGIN.Text}', UserPassword = '{txtPASS.Text}'";
+                string sel = $"select count(*) from `Users` where UserName = '{txtLOGIN.Text}' and UserPassword = '{txtPASS.Text}'";
+                MySqlCommand command = new MySqlCommand(sel,conn);
+                if (Int32.Parse(command.ExecuteScalar().ToString()) >= 1)
+                {
+                    UserInfo.username = txtLOGIN.Text;
+                    UserInfo.password = txtPASS.Text;
+                    Select selectform = new Select();
+                    this.Hide();
+                    selectform.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Неверный логин или пароль");
+                }
             }
         }
     }
