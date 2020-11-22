@@ -1,4 +1,6 @@
+22.11.20 - обновил данные базы, старую базу видимо грохнули за неактив
+
 Ссылка на базу: https://remotemysql.com/phpmyadmin/index.php?db=6PKeY23Bcb
-Логин: 6PKeY23Bcb
-Пароль: HWiidJ4pHF
-Строка подключения: @"server=remotemysql.com;user=6PKeY23Bcb;database=6PKeY23Bcb;port=3306;password=HWiidJ4pHF";
+Логин: VizvCb1aZg
+Пароль: ZnQCsOWBq4
+Строка подключения: @"server=remotemysql.com;user=VizvCb1aZg;database=VizvCb1aZg;port=3306;password=ZnQCsOWBq4"; //после обновления не проверял, работает-ли строка
